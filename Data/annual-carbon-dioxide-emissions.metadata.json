@@ -1,0 +1,38 @@
+{
+  "chart": {
+    "title": "Annual CO₂ emissions from wildfires",
+    "citation": "Global Wildfire Information System (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/annual-carbon-dioxide-emissions?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "United States",
+      "Canada",
+      "Greece",
+      "Brazil",
+      "Indonesia"
+    ]
+  },
+  "columns": {
+    "Annual carbon dioxide emissions": {
+      "titleShort": "Annual carbon dioxide emissions",
+      "titleLong": "Annual carbon dioxide emissions",
+      "descriptionShort": "Carbon dioxide released by [wildfires](#dod:wildfires) in tonnes. The 2025 data is incomplete and was last updated 30 September 2025.",
+      "descriptionKey": [
+        "CO₂ emissions contribute to the greenhouse effect, influencing global warming and climate change."
+      ],
+      "shortUnit": "t",
+      "unit": "tonnes",
+      "timespan": "2003-2025",
+      "type": "Numeric",
+      "owidVariableId": 821427,
+      "shortName": "co2",
+      "lastUpdated": "2025-09-30",
+      "nextUpdate": "2025-10-07",
+      "citationShort": "Global Wildfire Information System (2025); Global Wildfire Information System (2024) – with minor processing by Our World in Data",
+      "citationLong": "Global Wildfire Information System (2025); Global Wildfire Information System (2024) – with minor processing by Our World in Data. “Annual carbon dioxide emissions” [dataset]. Global Wildfire Information System, “Seasonal wildfire trends” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/821427.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-09-30",
+  "activeFilters": {}
+}

@@ -1,0 +1,37 @@
+{
+  "chart": {
+    "title": "Annual area burnt by wildfires",
+    "citation": "Global Wildfire Information System (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/annual-area-burnt-by-wildfires?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States",
+      "Canada",
+      "Russia",
+      "Brazil"
+    ]
+  },
+  "columns": {
+    "Annual area burnt by wildfires": {
+      "titleShort": "Annual area burnt by wildfires",
+      "titleLong": "Annual area burnt by wildfires",
+      "descriptionShort": "Area burnt by [wildfires](#dod:wildfires) in hectares. The 2025 data is incomplete and was last updated 30 September 2025.",
+      "descriptionKey": [
+        "Wildfires are detected through the use of satellite imagery obtained from MODIS (Moderate Resolution Imaging Spectroradiometer) and VIIRS (Visible Infrared Imaging Radiometer Suite). These satellite systems are capable of identifying thermal anomalies and alterations in landscape patterns, which are indicative of burning.",
+        "The data provider is presently engaged in a global accuracy assessment and acknowledged that they might be underestimating the genuine impact of wildfires, primarily due to constraints imposed by the spatial resolution of the sensors they employ."
+      ],
+      "shortUnit": "ha",
+      "unit": "hectares",
+      "timespan": "2012-2025",
+      "type": "Numeric",
+      "owidVariableId": 821424,
+      "shortName": "area_ha",
+      "lastUpdated": "2025-09-30",
+      "nextUpdate": "2025-10-07",
+      "citationShort": "Global Wildfire Information System (2025); Global Wildfire Information System (2024) – with minor processing by Our World in Data",
+      "citationLong": "Global Wildfire Information System (2025); Global Wildfire Information System (2024) – with minor processing by Our World in Data. “Annual area burnt by wildfires” [dataset]. Global Wildfire Information System, “Seasonal wildfire trends” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/821424.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-09-30",
+  "activeFilters": {}
+}

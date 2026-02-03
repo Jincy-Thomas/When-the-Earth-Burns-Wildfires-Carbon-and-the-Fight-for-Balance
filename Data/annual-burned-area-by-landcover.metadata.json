@@ -1,0 +1,115 @@
+{
+  "chart": {
+    "title": "Wildfire area burned by land cover type",
+    "subtitle": "Total area of forests, savannas, shrublands/grasslands, croplands, and other land that have been burned as a result of [wildfires](#dod:wildfires) each year.",
+    "citation": "Global Wildfire Information System (2022)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/annual-burned-area-by-landcover?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "North America",
+      "Africa",
+      "Europe",
+      "South America",
+      "Oceania"
+    ]
+  },
+  "columns": {
+    "Yearly burned area across other land categories": {
+      "titleShort": "Other land",
+      "titleLong": "Other land",
+      "descriptionShort": "Total area of land categories other than forests, savannas, shrublands/grasslands and croplands burnt by [wildfires](#dod:wildfires) in hectares.",
+      "descriptionKey": [
+        "Wildfires are detected through the use of satellite imagery based on the NASA MCD64 MODIS product which offers global assessments of burned areas and fire occurrences. Although widely used, this product is known to consistently underestimate both the extent of burned areas and the frequency of fires. However, in terms of historical trends, it stands out as the most comprehensive dataset, offering the longest time series compared to other available options."
+      ],
+      "shortUnit": "ha",
+      "unit": "hectares",
+      "timespan": "2002-2022",
+      "type": "Numeric",
+      "owidVariableId": 820922,
+      "shortName": "other",
+      "lastUpdated": "2024-02-19",
+      "nextUpdate": "2025-10-30",
+      "citationShort": "Global Wildfire Information System (2022) – with minor processing by Our World in Data",
+      "citationLong": "Global Wildfire Information System (2022) – with minor processing by Our World in Data. “Other land” [dataset]. Global Wildfire Information System, “Global Monthly Burned Area” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/820922.metadata.json"
+    },
+    "Yearly burned area across croplands": {
+      "titleShort": "Croplands",
+      "titleLong": "Croplands",
+      "descriptionShort": "Total area of agricultural lands burnt by [wildfires](#dod:wildfires) in hectares.",
+      "descriptionKey": [
+        "Wildfires are detected through the use of satellite imagery based on the NASA MCD64 MODIS product which offers global assessments of burned areas and fire occurrences. Although widely used, this product is known to consistently underestimate both the extent of burned areas and the frequency of fires. However, in terms of historical trends, it stands out as the most comprehensive dataset, offering the longest time series compared to other available options."
+      ],
+      "shortUnit": "ha",
+      "unit": "hectares",
+      "timespan": "2002-2022",
+      "type": "Numeric",
+      "owidVariableId": 820923,
+      "shortName": "croplands",
+      "lastUpdated": "2024-02-19",
+      "nextUpdate": "2025-10-30",
+      "citationShort": "Global Wildfire Information System (2022) – with minor processing by Our World in Data",
+      "citationLong": "Global Wildfire Information System (2022) – with minor processing by Our World in Data. “Croplands” [dataset]. Global Wildfire Information System, “Global Monthly Burned Area” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/820923.metadata.json"
+    },
+    "Yearly burned area across forests": {
+      "titleShort": "Forests",
+      "titleLong": "Forests",
+      "descriptionShort": "Total area of forests burnt by [wildfires](#dod:wildfires) in hectares.",
+      "descriptionKey": [
+        "Wildfires are detected through the use of satellite imagery based on the NASA MCD64 MODIS product which offers global assessments of burned areas and fire occurrences. Although widely used, this product is known to consistently underestimate both the extent of burned areas and the frequency of fires. However, in terms of historical trends, it stands out as the most comprehensive dataset, offering the longest time series compared to other available options."
+      ],
+      "shortUnit": "ha",
+      "unit": "hectares",
+      "timespan": "2002-2022",
+      "type": "Numeric",
+      "owidVariableId": 820917,
+      "shortName": "forest",
+      "lastUpdated": "2024-02-19",
+      "nextUpdate": "2025-10-30",
+      "citationShort": "Global Wildfire Information System (2022) – with minor processing by Our World in Data",
+      "citationLong": "Global Wildfire Information System (2022) – with minor processing by Our World in Data. “Forests” [dataset]. Global Wildfire Information System, “Global Monthly Burned Area” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/820917.metadata.json"
+    },
+    "Yearly burned area across savannas": {
+      "titleShort": "Savannas",
+      "titleLong": "Savannas",
+      "descriptionShort": "Total area of savannas burnt by [wildfires](#dod:wildfires) in hectares.",
+      "descriptionKey": [
+        "Wildfires are detected through the use of satellite imagery based on the NASA MCD64 MODIS product which offers global assessments of burned areas and fire occurrences. Although widely used, this product is known to consistently underestimate both the extent of burned areas and the frequency of fires. However, in terms of historical trends, it stands out as the most comprehensive dataset, offering the longest time series compared to other available options."
+      ],
+      "shortUnit": "ha",
+      "unit": "hectares",
+      "timespan": "2002-2022",
+      "type": "Numeric",
+      "owidVariableId": 820920,
+      "shortName": "savannas",
+      "lastUpdated": "2024-02-19",
+      "nextUpdate": "2025-10-30",
+      "citationShort": "Global Wildfire Information System (2022) – with minor processing by Our World in Data",
+      "citationLong": "Global Wildfire Information System (2022) – with minor processing by Our World in Data. “Savannas” [dataset]. Global Wildfire Information System, “Global Monthly Burned Area” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/820920.metadata.json"
+    },
+    "Yearly burned area across shrublands and grasslands": {
+      "titleShort": "Shrublands and grasslands",
+      "titleLong": "Shrublands and grasslands",
+      "descriptionShort": "Total area of shrublands and grasslands burnt by [wildfires](#dod:wildfires) in hectares.",
+      "descriptionKey": [
+        "Wildfires are detected through the use of satellite imagery based on the NASA MCD64 MODIS product which offers global assessments of burned areas and fire occurrences. Although widely used, this product is known to consistently underestimate both the extent of burned areas and the frequency of fires. However, in terms of historical trends, it stands out as the most comprehensive dataset, offering the longest time series compared to other available options."
+      ],
+      "shortUnit": "ha",
+      "unit": "hectares",
+      "timespan": "2002-2022",
+      "type": "Numeric",
+      "owidVariableId": 820921,
+      "shortName": "shrublands_grasslands",
+      "lastUpdated": "2024-02-19",
+      "nextUpdate": "2025-10-30",
+      "citationShort": "Global Wildfire Information System (2022) – with minor processing by Our World in Data",
+      "citationLong": "Global Wildfire Information System (2022) – with minor processing by Our World in Data. “Shrublands and grasslands” [dataset]. Global Wildfire Information System, “Global Monthly Burned Area” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/820921.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-09-30",
+  "activeFilters": {}
+}
